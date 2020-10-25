@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Vedad Jahjaefendic First assignment
+    Project name: CV Vedad Jahjaefendic
+    Quirks and features: besides HTML I used little style to make project web responsible (on mobile and on PC) also text alignment
+    ID: 180302020
+    Hope you enjoy :D
+-->
+
+
+
+<head>
+    <style>
+        @media screen and (min-width: 952px) {
+            .stil {
+                margin-right: 50%;
+                text-align: justify;
+            }
+        }
+
+        @media screen and (max-width:858px) {
+            .stil {
+                padding-left: 5px;
+                padding-right: 5px;
+                text-align: justify;
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedad Jahjaefendic CV</title>
+</head>
+
+<body>
+    <div>
+        <h1 style="text-align: center;">Curriculum Vitae</h1>
+        <hr>
+        <h2><u>Personal info</u></h3>
+            <!--1.-->
+            <div class="stil">
+
+                <p><b>Telephone number:</b> (+387) 062 546 561 </p>
+                <p><b>Email:</b> vedadovsky13@gmail.com </p>
+                <p><b>Gender:</b> Male </p>
+                <p><b>Date of birth:</b> 17.07.1999 </p>
+                <p><b>Nationality:</b> Bosnia and Herzegovina </p>
+                <p><b>Driving licence:</b> B </p>
+            </div>
+            <hr>
+            <h2><u>Languages</u></h2>
+            <!--2.-->
+            <div class="stil">
+
+                <p>English, German, Turkish</p>
+            </div>
+            <hr>
+            <!--3.-->
+            <h2><u>Digital Competence</u></h2>
+            <table class="stil">
+                <tr>
+                    <td style="padding-right: 30px;">Java</td>
+                    <td style="padding-right: 30px;">Android Studio</td>
+                    <td style="padding-right: 30px;">Angular</td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 30px;">C++</td>
+                    <td style="padding-right: 30px;">MYSQL</td>
+                    <td style="padding-right: 30px;">Photoshop</td>
+                </tr>
+            </table>
+            <hr>
+            <!--4.-->
+            <h2><u>Experiance</u></h2>
+            <div class="stil">
+                <p>8/2019-8/2019 - <b>SFF DRIVER FOR VIP GUESTS</b></p>
+                <p>During the period of 25th Sarajevo Film Festival, I was in charge of VIP I car, where I have
+                    encountered. red and net many world-known music artists and movie stars; besides amending my driving
+                    skills it helped to improve my English vocabulary while speaking with guests. Furthermore, during
+                    that time in a few instances I have assisted guests who had quandaries in the IT field. </p>
+            </div>
+            <br>
+            <div class="stil">
+                <p>6/2019-9/2019 - <b>NEXT VISION BACK-END AND FRONT-END DEVELOPER</b></p>
+                <p>In our team of six, my colleague and I were in charge of mainly, of the Front-end development. During
+                    those three months, I was working on two different projects. One of those projects was the new
+                    overhaul of KJKP RAD's applicative software. The main program that we utilized for front-end
+                    development was Angular in Microsoft Visual Studio. Furthermore, I was withal tasked to avail my
+                    colleague with API from inserting given data to it as well as connecting it to our new web
+                    application. Besides that, I was also involved in companies second project which was a new CRM for
+                    MIBO Komunikacije. The program I utilized for that project was Bootstrap in Microsoft Visual Studio.
+                    My task was to implement multiple languages to CRM as well as making the design responsive for the
+                    application. This experience availed me to amend mine coding (to make code more facile to understand
+                    for other team members), it showed me how to collaborate as a team member and how to resolve
+                    different quandaries more efficiently. </p>
+            </div>
+            <br>
+            <div class="stil">
+                <p>1/2019-2/2019 - <b>EYOF BACKUP TEAM MEMBER</b></p>
+                <p>Volunteer work during one month period of EYOF, job description was backup team member where we have
+                    faced a variety of different quandaries regarding IT. Mainly we were in charge of storing data
+                    (results of the competitions). Besides that, before the commencement of EYOF, we were tasked to test
+                    and maintain if needed technical equipment, from scoreboards to other staffs computers. Furthermore,
+                    there were situations where we were sent to competitions our self in case something malfunctioned.
+                </p>
+            </div>
+            <hr>
+            <!--5-->
+            <h2><u>Education</u></h2>
+            <div class="stil">
+                <p>10/2018-PRESENT - <b>STUDENT OF SOFTWARE ENGINEERING</b></p>
+                <p>Faculty of Engineering and Natural Science, International University of Sarajevo (Bosnia and
+                    Herzegovina)</p>
+            </div>
+            <br>
+            <div class="stil">
+                <p>9/2014-5/2018 - <b>SECOND GYMNASIUM SARAJEVO</b></p>
+            </div>
+            <hr>
+            <!--6.-->
+            <h2><u>Personality</u></h2>
+            <table class="stil">
+                <tr>
+                    <td style="padding-right: 30px;">Multi-Tasker</td>
+                    <td style="padding-right: 30px;">Creative</td>
+                    <td style="padding-right: 30px;">Persistent</td>
+                </tr>
+                <tr>
+                    <td style="padding-right: 30px;">Communicative</td>
+                    <td style="padding-right: 30px;">Organised</td>
+                    <td style="padding-right: 30px;">Reliable</td>
+                </tr>
+            </table>
+</body>
+
+</html>
